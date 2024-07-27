@@ -1,0 +1,1280 @@
+[
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "name",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column name using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "sponsor",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column sponsor using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "event",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column event using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "place",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column place using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "physical_description",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column physical_description using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "occasion",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column occasion using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "notes",
+      "expression": "value.toLowercase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column notes using expression value.toLowercase()"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "event",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Dinner",
+            "[dinner]",
+            "(dinner)",
+            "Dinner;",
+            "Dinner (?)",
+            "Dinner ",
+            "Dinner(?)",
+            "[dinner?]",
+            "(?dinner?)",
+            "Dinner,",
+            "Dinner?",
+            "[?dinner?]",
+            "[dinner ?]"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Dinner"
+        },
+        {
+          "from": [
+            "Lunch",
+            "[lunch]",
+            "(?lunch?)",
+            "Lunch;",
+            "[lunch?]",
+            "(lunch)",
+            "Lunch (?)",
+            "Lunch."
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Lunch"
+        },
+        {
+          "from": [
+            "Breakfast",
+            "[breakfast]",
+            "Breakfast;",
+            "Breakfast (?)",
+            "Breakfast(?)",
+            "[breakfast ?]"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Breakfast"
+        },
+        {
+          "from": [
+            "Daily Menu",
+            "(daily Menu)",
+            "Daily Menu;",
+            "[daily Menu?]",
+            "[daily] Menu"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daily Menu"
+        },
+        {
+          "from": [
+            "Supper",
+            "Supper (?)",
+            "Supper(?)",
+            "Supper;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Supper"
+        },
+        {
+          "from": [
+            "Carte Du Jour",
+            "(carte Du Jour)",
+            "Carte Du Jour;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Carte Du Jour"
+        },
+        {
+          "from": [
+            "Lunch & Dinner",
+            "Lunch; Dinner",
+            "[?dinner? - Lunch?]"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Lunch & Dinner"
+        },
+        {
+          "from": [
+            "Fruhstuck-breakfast",
+            "Fruhstuck/breakfast",
+            "Fruhstuck/breakfast;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Fruhstuck-breakfast"
+        },
+        {
+          "from": [
+            "Daily Menu, Dinner",
+            "Daily Dinner Menu",
+            "Daily Menu; Dinner"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daily Dinner Menu"
+        },
+        {
+          "from": [
+            "A La Carte; Dinner",
+            "Dinner A La Carte",
+            "Dinner; A La Carte"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Dinner A La Carte"
+        },
+        {
+          "from": [
+            "Daily Lunch Menu",
+            "Daily Menu, Lunch",
+            "Daily Menu; Lunch"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daily Lunch Menu"
+        },
+        {
+          "from": [
+            "Lunch Or Dinner",
+            "Dinner Or Lunch",
+            "Lunch &/or Dinner"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Lunch Or Dinner"
+        },
+        {
+          "from": [
+            "Luncheon",
+            "[luncheon]",
+            "Luncheon;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Luncheon"
+        },
+        {
+          "from": [
+            "Anniversary Dinner",
+            "Anniversary Dinner?",
+            "Anniversary [dinner]"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Anniversary Dinner"
+        },
+        {
+          "from": [
+            "Mittagessen",
+            "Mittag-essen",
+            "Mittagessen;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Mittagessen"
+        },
+        {
+          "from": [
+            "Inspection Trip - Luncheon",
+            "Inspection Trip, Luncheon",
+            "Inspection Trip, Luncheon;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Inspection Trip - Luncheon"
+        },
+        {
+          "from": [
+            "Banquet And Reception",
+            "Reception And Banquet"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Banquet And Reception"
+        },
+        {
+          "from": [
+            "Table D'hote Dinner",
+            "Dinner Table D'hote"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Table D'hote Dinner"
+        },
+        {
+          "from": [
+            "Afternoon Tea",
+            "Afternoon Tea ["
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Afternoon Tea"
+        },
+        {
+          "from": [
+            "Dinner - Second Cabin",
+            "Dinner Second Cabin"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Dinner Second Cabin"
+        },
+        {
+          "from": [
+            "Inspection Trip, Dinner",
+            "Inspection Trip, Dinner;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Inspection Trip, Dinner"
+        },
+        {
+          "from": [
+            "Menu",
+            "Menu;"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Menu"
+        },
+        {
+          "from": [
+            "Annual Dinner",
+            "[annual Dinner?]"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Annual Dinner"
+        },
+        {
+          "from": [
+            "Daily Lunch;",
+            "Daily Lunch"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daily Lunch;"
+        },
+        {
+          "from": [
+            "Fifth Annual Dinner",
+            "Dinner, Fifth Annual"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Fifth Annual Dinner"
+        },
+        {
+          "from": [
+            "Daily Menu, Luncheon",
+            "Daily Luncheon Menu"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Daily Menu, Luncheon"
+        }
+      ],
+      "description": "Mass edit cells in column event"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "venue",
+      "expression": "value.toTitlecase()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column venue using expression value.toTitlecase()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "date",
+      "expression": "value.toDate()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column date using expression value.toDate()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "menus_appeared",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column menus_appeared using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "times_appeared",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column times_appeared using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "first_appeared",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column first_appeared using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "last_appeared",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column last_appeared using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "lowest_price",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column lowest_price using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "highest_price",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column highest_price using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "page_count",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column page_count using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Menu.csv",
+                  "l": "Menu.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "dish_count",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column dish_count using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "menu_page_id",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column menu_page_id using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "price",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column price using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "high_price",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column high_price using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "dish_id",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column dish_id using expression value.toNumber()"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "range",
+            "name": "price",
+            "expression": "value",
+            "columnName": "price",
+            "from": 100000,
+            "to": 190000,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectBlank": false,
+            "selectError": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "description": "Remove rows"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "range",
+            "name": "price",
+            "expression": "value",
+            "columnName": "price",
+            "from": 0,
+            "to": 96000,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectBlank": false,
+            "selectError": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "created_at",
+      "expression": "value.toDate()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column created_at using expression value.toDate()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "range",
+            "name": "price",
+            "expression": "value",
+            "columnName": "price",
+            "from": 0,
+            "to": 96000,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectBlank": false,
+            "selectError": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "updated_at",
+      "expression": "value.toDate()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column updated_at using expression value.toDate()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuPage.csv",
+                  "l": "MenuPage.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "menu_id",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column menu_id using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuPage.csv",
+                  "l": "MenuPage.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "image_id",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column image_id using expression value.toNumber()"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Dish.csv",
+                  "l": "Dish.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "range",
+            "name": "last_appeared",
+            "expression": "value",
+            "columnName": "last_appeared",
+            "from": 2100,
+            "to": 3000,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectBlank": true,
+            "selectError": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "description": "Remove rows"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "xpos",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column xpos using expression value.toNumber()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "File",
+            "expression": "value",
+            "columnName": "File",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "MenuItem.csv",
+                  "l": "MenuItem.csv"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "ypos",
+      "expression": "value.toNumber()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ypos using expression value.toNumber()"
+    }
+  ]
