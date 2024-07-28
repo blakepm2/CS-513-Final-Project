@@ -1,0 +1,27 @@
+### PROFILING QUERIES
+
+# this is the code used to read the datasets into pandas DataFrames
+pd.read_csv('Dish.csv')
+pd.read_csv('MenuItem.csv')
+pd.read_csv('MenuPage.csv')
+pd.read_csv('Menu.csv')
+
+# we can then call the .head() method on each of these objects to see what the data looks like ex.
+
+df.head()
+
+### QUERY #1
+
+# Identifying the count of distinct dish names before/after standardization
+select distinct name
+  from dish_df
+order by 1 asc
+
+### QUERY #2
+
+# Analyzing the average price of dishes in the catalog before/after standardization
+select distinct name
+    , avg(highest_price) as avg_price
+ from dish_df
+group by 1
+order by 2 desc
