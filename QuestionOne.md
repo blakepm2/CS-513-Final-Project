@@ -5,7 +5,7 @@ A description of the actual data cleaning workflow W that was performed, and a c
 
 3) Convert notes to lowercase. There are long description of notes in menu.csv. It would make sense to have those notes lowercase since they are representing full paragraphs of notes. Titlecase would not make sense in this case. 
 
-4) Cluster Events, since many different variations for the same word, such as Dinner having 10 different variations. Combining them gives much more clarity. For example, Dinnr, D!nner, diner, were all combined into "Dinner". We don't want mispelling of words because the user will not be able to clearly filter by one keyword such as "Diner" 
+4) Cluster Events, since many different variations for the same word, such as Dinner having 10 different variations. Combining them gives much more clarity. For example, Dinnr, D!nner, diner, were all combined into "Dinner". We don't want mispelling of words because the user will not be able to clearly filter by one keyword such as "Dinner" 
 
 5) Converted Date String to Date Type so that analysis software can correctly recognize that the columns are indeed dates. OpenRefine wasn't able to automatically convert to date format so used string transformatio to convert dates prevent into a format that Open Refine was able to recognize. This is a neccessary step so that analysis software can filter by date if neccessary. 
 
